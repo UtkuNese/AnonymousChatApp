@@ -1,4 +1,4 @@
-const socket = io.connect('http://localhost:3000')
+const socket = io.connect('https://anonymous-chat-app-mu.vercel.app/')
 
 const sender = document.getElementById('sender')
 const message = document.getElementById('message')
